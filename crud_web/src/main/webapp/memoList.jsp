@@ -88,6 +88,10 @@
 <title>memoList.jsp</title>
 </head>
 <body>
+	<!-- menu.jsp 이 위치에 include -->
+	<jsp:include page="/menu.jsp"></jsp:include>
+	
+	<!-- Navigation -->
 	<div>
 	<%
 		for(String mc: memoCategoryList){

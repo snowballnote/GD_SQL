@@ -38,6 +38,9 @@
 <title>memoOne.jsp</title>
 </head>
 <body>
+	<!-- menu.jsp 이 위치에 include -->
+	<jsp:include page="/menu.jsp"></jsp:include>
+	
 	<h1>MEMO ONE</h1>
 	<table border="1">
 		<tr>

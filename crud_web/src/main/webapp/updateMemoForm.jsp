@@ -39,6 +39,8 @@
 <title>updateMemoForm.jsp</title>
 </head>
 <body>
+	<!-- menu.jsp 이 위치에 include -->
+	<jsp:include page="/menu.jsp"></jsp:include>
 	<h1>UPDATE MEMO</h1>
 	
 	<form action="<%=request.getContextPath() %>/updateMemoAction.jsp" method="post">

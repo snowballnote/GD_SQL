@@ -37,6 +37,8 @@
 <title>updateBoardFrom.jsp</title>
 </head>
 <body>
+	<!-- menu.jsp 이 위치에 include -->
+	<jsp:include page="/menu.jsp"></jsp:include>
 	<h1>UPDATE BOARD</h1>
 	
 	<form action="<%=request.getContextPath() %>/updateBoardAction.jsp" method="post">

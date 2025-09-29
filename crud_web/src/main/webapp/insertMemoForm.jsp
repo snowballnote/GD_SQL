@@ -7,6 +7,8 @@
 <title>insertMemoForm.jsp</title>
 </head>
 <body>
+	<!-- menu.jsp 이 위치에 include -->
+	<jsp:include page="/menu.jsp"></jsp:include>
 	<%
 	String[] memoCategoryList = {"회사일정","부서일정","개인일정"};
 	%>

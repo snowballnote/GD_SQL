@@ -6,6 +6,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- menu.jsp 이 위치에 include -->
+	<jsp:include page="/menu.jsp"></jsp:include>
 	<%
 		String[] boardDistrictList = {"경기도", "강원도", "충청도", "전라도", "경상도", "제주도"};
 	%>
